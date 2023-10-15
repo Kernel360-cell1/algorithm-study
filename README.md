@@ -29,5 +29,5 @@
 
 ## 출처
 [~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)   
-[저장소 형식 및 각종 규칙들]("https://github.com/Inmeso-Algorithm")  
+[저장소 형식 및 각종 규칙들](https://github.com/Inmeso-Algorithm)  
 저장소 형식 사용을 허락해주신 [카펀](https://github.com/kchung1995)님께 심심한 감사의 인사를 남깁니다.
