@@ -1,2 +1,27 @@
-# algorithm-study
-희망의 알고리즘 스터디 
+# [그날 본 알고리즘의 로직을 우리는 아직 모른다.](https://www.youtube.com/watch?v=jE0Ym96vmCA)
+[Kernel360](https://github.com/Kernel360) 1기 1 cell 희망의 알고리즘 스터디
+
+## 목표
+모두가 ~~코테에서 행복해지는 그날~~까지 본 스터디는 계속됩니다.
+
+## 멤버
+|Backend|Backend|Backend|Backend|Backend|
+|---|---|---|---|---|
+|[주광](https://github.com/Hju95)|[예진](https://github.com/yejincode)|[윤선](https://github.com/yoonseon12)|[민협](https://github.com/GBGreenBravo)|[병룡](https://github.com/fingersdanny)|
+
+## 목차
+* PR 방법 및 운영 규칙
+* 문제 목록
+
+## PR 방법 및 운영 규칙
+* PR 방법은 [여기]()를 확인해주세요!
+* 스터디 세부 운영 규칙은 [여기]()를 확인해주세요!
+
+## 문제 목록
+매주 팀원들이 푼 문제들이 표시됩니다.
+
+|날짜|문제1|문제2|문제3|문제4|문제5|
+|---|---|---|---|---|---|
+|2023년 1주차 (10.15 ~ 10.21)| 
+|---|---|---|---|---|---|
+|---|---|---|---|---|---|
