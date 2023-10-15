@@ -1,6 +1,5 @@
 # [그날 본 알고리즘의 로직을 우리는 아직 모른다.](https://www.youtube.com/watch?v=jE0Ym96vmCA)
 [Kernel360](https://github.com/Kernel360) 1기 1 cell 희망의 알고리즘 스터디  
-[~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)
 
 ## 목표
 모두가 ~~코테에서 행복해지는 그날~~까지 본 스터디는 계속됩니다.
@@ -27,3 +26,8 @@
 |2023년 1주차 (10.15 ~ 10.21)| [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) |
 |---| ---                    |---|---|---|---|
 |---| ---                    |---|---|---|---|
+
+## 출처
+[~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)   
+[저장소 형식 및 각종 규칙들]("https://github.com/Inmeso-Algorithm")  
+저장소 형식 사용을 허락해주신 [카펀](https://github.com/kchung1995)님께 심심한 감사의 인사를 남깁니다.
