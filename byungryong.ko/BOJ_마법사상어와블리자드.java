@@ -1,7 +1,9 @@
+package byungryong.ko;
+
 import java.util.*;
 import java.io.*;
 
-class Main {
+public class BOJ_마법사상어와블리자드 {
     public static class FastReader {
         BufferedReader br;
         StringTokenizer st;

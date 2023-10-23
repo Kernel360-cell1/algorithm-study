@@ -1,4 +1,4 @@
-package yejin.ko;
+package yejin.song;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 import static java.lang.System.*;
 
-public class Main {
+public class BOJ_팰린드롬수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
         // br 통해서 줄 별로 읽어오기
