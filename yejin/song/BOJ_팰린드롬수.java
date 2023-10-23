@@ -19,7 +19,7 @@ public class Main {
             boolean palin = true; // 입력되는 수가 팰린드롬 수라고 가정함.
             if (palin_num.equals("0")) return;
 
-            for (int i = 0; i<=palin_num.length()/2; i++){å
+            for (int i = 0; i<=palin_num.length()/2; i++){
                 if(palin_num.charAt(i)!=palin_num.charAt(palin_num.length()-i-1)) {
                     palin = false;
                     break;
