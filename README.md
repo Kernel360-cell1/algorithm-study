@@ -21,11 +21,11 @@
 ## 문제 목록
 매주 팀원들이 푼 문제들이 표시됩니다.
 
-| 날짜                        | 문제1                                             | 문제2                                          |문제3| 문제4                                                                        |문제5|
-|---------------------------|-------------------------------------------------|----------------------------------------------|---|----------------------------------------------------------------------------|---|
-| 2023년 1주차 (10.15 ~ 10.22) | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | [최대힙](https://www.acmicpc.net/problem/11279) |  [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | [팰린드롬수](https://www.acmicpc.net/problem/1259)|
-| 2023년 2주차 (10.23 ~ 10.29) | [이진 검색 트리](https://www.acmicpc.net/problem/5639)| [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)                                   |---| ---                                                                        |---|
-| ---                       | ---                                             | ---                                          |---| ---                                                                        |---|
+| 날짜                        | 문제1                                             | 문제2        | 문제3                                                                     | 문제4                                                                        |문제5|
+|---------------------------|-------------------------------------------------|------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------|---|
+| 2023년 1주차 (10.15 ~ 10.22) | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | [최대힙](https://www.acmicpc.net/problem/11279) | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | [팰린드롬수](https://www.acmicpc.net/problem/1259)|
+| 2023년 2주차 (10.23 ~ 10.29) | [이진 검색 트리](https://www.acmicpc.net/problem/5639)| [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | [괄호](https://www.acmicpc.net/problem/9012)                              | ---                                                                        |---|
+| ---                       | ---                                             | ---        | ---                                                                     | ---                                                                        |---|
 
 ## 출처
 [~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)   
