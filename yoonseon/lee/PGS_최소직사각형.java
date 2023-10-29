@@ -1,6 +1,5 @@
 package yoonseon.lee;
 
-// https://school.programmers.co.kr/learn/courses/30/lessons/86491
 public class PGS_최소직사각형 {
 	public static void main(String[] args) {
 		Solution solution = new Solution();
