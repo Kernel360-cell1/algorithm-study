@@ -17,15 +17,16 @@
 * GitHub을 어떻게 쓰는지 모른다면 [여기](admin/git_intro.md)를 참고해주세요!
 * PR 방법은 [여기](admin/PR_rules.md)를 확인해주세요!
 * 스터디 세부 운영 규칙은 [여기](admin/Study_rules.md)를 확인해주세요!
-
+ 
 ## 문제 목록
 매주 팀원들이 푼 문제들이 표시됩니다.
 
-| 날짜                        | 병룡                                              | 윤선         | 주광                                                                      | 민협                                                                         |예진|
-|---------------------------|-------------------------------------------------|------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------|---|
-| 2023년 1주차 (10.15 ~ 10.22) | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | [최대힙](https://www.acmicpc.net/problem/11279) | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | [팰린드롬수](https://www.acmicpc.net/problem/1259)|
+| 날짜                        | 병룡                                              | 윤선                                                                        | 주광                                                                      | 민협                                                                         |예진|
+|---------------------------|-------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------|---|
+| 2023년 1주차 (10.15 ~ 10.22) | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | [최대힙](https://www.acmicpc.net/problem/11279)                              | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | [팰린드롬수](https://www.acmicpc.net/problem/1259)|
 | 2023년 2주차 (10.23 ~ 10.29) | [이진 검색 트리](https://www.acmicpc.net/problem/5639)| [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946)                               | [괄호](https://www.acmicpc.net/problem/9012)                                                                        |---|
-| ---                       | ---                                             | ---        | ---                                                                     | ---                                                                        |---|
+| 2023년 2주차 (10.30 ~ 11.05) | ---                                             | [소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)                                                                  | ---                                                                     | ---                                                                        |---|
+| ---                       | ---                                             | ---                                                                       | ---                                                                     | ---                                                                        |---|
 
 ## 출처
 [~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)   
