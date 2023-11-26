@@ -5,9 +5,9 @@
 모두가 ~~코테에서 행복해지는 그날~~까지 본 스터디는 계속됩니다.
 
 ## 멤버
-|Backend|Backend|Backend|Backend|Backend|
-|---|---|---|---|---|
-|[주광](https://github.com/Hju95)|[예진](https://github.com/yejincode)|[윤선](https://github.com/yoonseon12)|[민협](https://github.com/GBGreenBravo)|[병룡](https://github.com/fingersdanny)|
+|Backend|Backend|Backend|Backend|Backend|Backend|
+|---|---|---|---|---|---|
+|[주광](https://github.com/Hju95)|[예진](https://github.com/yejincode)|[윤선](https://github.com/yoonseon12)|[민협](https://github.com/GBGreenBravo)|[병룡](https://github.com/fingersdanny)|[종찬](https://github.com/oxix97)|
 
 ## 목차
 * PR 방법 및 운영 규칙
