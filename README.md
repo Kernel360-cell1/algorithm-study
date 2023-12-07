@@ -30,7 +30,7 @@
 | 2023년 4주차 (11.06 ~ 11.12) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)    | [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681) | [JadenCase 문자열 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) | [피보나치수2](https://www.acmicpc.net/problem/2748)|
 | 2023년 5주차 (11.13 ~ 11.19) | [임시 반장 정하기](https://www.acmicpc.net/problem/1268)  | [헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736) | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)| [연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988) | [보물](https://www.acmicpc.net/problem/1026) | [DFS와 BFS](https://github.com/oxix97/algorithm-study/blob/main/jongchan/lee/BOJ_1260_DFS%EC%99%80BFS.java) |
 | 2023년 6주차 (11.20 ~ 11.26) | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |  [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | [가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904) | [개미](https://www.acmicpc.net/problem/10158) | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) | 
-
+| 2023년 7주차 (11.27 ~ 12.03) | [곱셈](https://www.acmicpc.net/problem/1629) | [색종이](https://acmicpc.net/problem/2563) |  [연구소](https://acmicpc.net/problem/14502) | [풍선 터트리기](https://school.programmers.co.kr/learn/courses/30/lessons/68646) | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [바이러스](https://acmicpc.net/problem/2606) | 
 
 ## 출처
 [~~제목의 출처~~](https://github.com/WeStillDontKnowTheAlgorithmWeSawThatDay/AlgorithmStudyOfDestruction)   
