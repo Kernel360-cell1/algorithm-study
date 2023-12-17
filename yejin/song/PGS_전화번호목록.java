@@ -1,12 +1,14 @@
 package yejin.song;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class PGS_전화번호목록 {
     public static void main(String args[]){
         System.out.println(solution(new String[]{"12","123","1235","567","88","134"}));
     }
     public static boolean solution(String[] phone_book) {
+
         Arrays.sort(phone_book);
 
         for (int i = 0; i < phone_book.length; i++){
