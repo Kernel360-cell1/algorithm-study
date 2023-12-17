@@ -15,33 +15,8 @@ public class BOJ_유기농배추 {
 
     public static void main(String[] args) throws IOException {
 
-        // Simulating the provided example
-//        String exampleInput = "2\n" +
-//                "10 8 17\n" +
-//                "0 0\n" +
-//                "1 0\n" +
-//                "1 1\n" +
-//                "4 2\n" +
-//                "4 3\n" +
-//                "4 5\n" +
-//                "2 4\n" +
-//                "3 4\n" +
-//                "7 4\n" +
-//                "8 4\n" +
-//                "9 4\n" +
-//                "7 5\n" +
-//                "8 5\n" +
-//                "9 5\n" +
-//                "7 6\n" +
-//                "8 6\n" +
-//                "9 6\n" +
-//                "10 10 1\n" +
-//                "5 5";
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        // Simulating input using exampleInput string instead of reading from System.in
-//        br = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(exampleInput.getBytes())));
 
         int T = Integer.parseInt(br.readLine()); // 테스트 케이스의 수
 
@@ -69,14 +44,6 @@ public class BOJ_유기농배추 {
                 cabbageField[X][Y] = 1; // 밭에서 양배추 위치를 1로 표시
             }
 
-
-            // 양배추 밭 처리 (출력하거나 다른 작업 수행 가능)
-//            for (int i = 0; i < M; i++) {
-//                for (int j = 0; j < N; j++) {
-//                    System.out.print(cabbageField[i][j] + " "); // 양배추 밭 출력
-//                }
-//                System.out.println();
-//            }
 
             // for 으로 양배추 좌표만 체크한다. cabbageField[X][Y] = 1 이면 bfs 를 돌린다
             for (int i = 0; i < cabbageCount; i++) {

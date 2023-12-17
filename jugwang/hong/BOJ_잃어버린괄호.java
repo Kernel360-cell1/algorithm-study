@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 public class BOJ_잃어버린괄호 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        String text = "00009-00009";
 
         String input = br.readLine();
 
@@ -30,10 +29,6 @@ public class BOJ_잃어버린괄호 {
             }
         }
 
-        // 배열에 저장된 값 출력 (예시로 출력)
-//        for (String value : array) {
-//            System.out.println(value);
-//        }
 
         int result = 0;
         boolean isAddition = true;
