@@ -1,4 +1,4 @@
-class Solution {
+class PGS_정수삼각형 {
     public int solution(int[][] triangle) {
         if (triangle.length == 1) return triangle[0][0];
 
