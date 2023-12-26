@@ -17,10 +17,8 @@ public class BOJ_동전0 {
 
 		int count = 0;
 		for(int i=N-1; i>=0; i--) {
-			if (K >= arr[i]) {
-				count += (K/arr[i]);
-				K -= (K/arr[i]) * arr[i]; // K = K % arr[i]와 동일
-			}
+			count += (K/arr[i]);
+			K -= (K/arr[i]) * arr[i]; // K = K % arr[i]와 동일
 		}
 
 		System.out.println(count);
