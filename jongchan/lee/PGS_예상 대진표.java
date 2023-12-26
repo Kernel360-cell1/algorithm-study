@@ -1,6 +1,6 @@
-import java.util.*;
+package jongchan.lee;
 
-class Solution{
+class PGS_예상_대진표 {
     public int solution(int n, int a, int b){
         int min = Math.min(a,b);
         int max = Math.max(a,b);

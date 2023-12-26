@@ -1,7 +1,9 @@
+package jongchan.lee;
+
 import java.util.*;
 import java.util.stream.*;
 
-class Solution {
+public class PGS_1차_캐시 {
     public int solution(int cacheSize, String[] cities) {
         if(cacheSize==0) return cities.length * 5;
         
