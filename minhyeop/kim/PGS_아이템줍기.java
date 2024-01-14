@@ -46,13 +46,11 @@ public class PGS_아이템줍기 {
         nows.add(new int[]{characterX, characterY});
         gone[characterX][characterY] = 1;
 
-        while (!nows.isEmpty() && !find) {
+        while (!find) {
             count++;
-            // System.out.println("count: " + count);
 
             while(!nows.isEmpty()) {
                 int[] now = nows.poll();
-                // System.out.println("now: " + now[0] + " / " + now[1]);
 
                 int x = now[0];
                 int y = now[1];
