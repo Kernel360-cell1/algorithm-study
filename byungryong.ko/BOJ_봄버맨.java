@@ -18,48 +18,109 @@ public class BOJ_봄버맨 {
 					e.printStackTrace();
 				}
 			}
+
 			return st.nextToken();
 		}
 
 		int nextInt() {
 			return Integer.parseInt(next());
 		}
+	}
 
-		double nextDouble() {
-			return Double.parseDouble(next());
-		}
+	static int R, C, N;
+	static char[][] graph;
+	static int[][] time;
+	static int[] dx = {-1, 0, 1, 0};
+	static int[] dy = {0, 1, 0, -1};
 
-		long nextLong() {
-			return Long.parseLong(next());
+	private static void boom(int x, int y, int count) {
+		graph[x][y] = '.';
+		time[x][y] = -1;
+		for (int i = 0; i < 4; i++) {
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if (nx >= 0 && nx < R && ny >= 0 && ny < C) {
+				if (count - time[nx][ny] != 3) {
+					graph[nx][ny] = '.';
+					time[nx][ny] = -1;
+				}
+			}
 		}
 	}
+
+	private static void plant(int count) {
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				if (graph[i][j] != 'O') {
+					graph[i][j] = 'O';
+					time[i][j] = count;
+				}
+			}
+		}
+	}
+
+	private static void activate(int count) {
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				if (graph[i][j] == 'O' && count - time[i][j] == 3) {
+					boom(i, j, count);
+				}
+			}
+		}
+	}
+
 	public static void main(String[] args) {
 		FastReader fr = new FastReader();
+		R = fr.nextInt();
+		C = fr.nextInt();
+		N = fr.nextInt();
 
-		LinkedList<Character> stack = new LinkedList<>();
-
-		String input = fr.next();
-		int answer = 0;
-
-		if (input.length() == 2) {
-			System.out.println(0);
-		} else {
-			for (int i = 0; i < input.length(); i++) {
-				char c = input.charAt(i);
-				if (c == '(') {
-					if (input.charAt(i + 1) == ')') {
-						answer += stack.size();
-					} else {
-						stack.add(c);
-					}
-				} else if (c == ')' && input.charAt(i - 1) != '(') {
-					stack.removeLast();
-					answer++;
-
-				}
-				System.out.println("stack = " + stack);
+		graph = new char[R][C];
+		time = new int[R][C];
+		for (int i = 0; i < R; i++) {
+			String line = fr.next();
+			Arrays.fill(time[i], -1);
+			for (int j = 0; j < line.length(); j++) {
+				graph[i][j] = line.charAt(j);
+				time[i][j] = 0;
 			}
-			System.out.println(answer);
 		}
+
+		int count = 1;
+
+		while (count < N) {
+			count++;
+			if (count % 2 == 0) {
+				plant(count);
+			} else {
+				activate(count);
+			}
+			// printG();
+		}
+
+		print();
+	}
+
+	private static void print() {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				sb.append(graph[i][j]);
+			}
+			sb.append("\n");
+		}
+
+		System.out.println(sb.toString());
+	}
+
+	static void printG() {
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				System.out.print(graph[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+		System.out.println("____________________");
 	}
 }
