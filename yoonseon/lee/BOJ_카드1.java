@@ -23,6 +23,6 @@ public class BOJ_카드1 {
 		}
 		sb.append(queue.poll());
 
-		System.out.println(sb.toString().trim());
+		System.out.println(sb);
 	}
 }
