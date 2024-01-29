@@ -3,15 +3,14 @@ package yejin.song;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ_경쟁적전염 {
-
     static int map[][];
     static int N,K,S,X,Y;
     static boolean[][] visited;
@@ -26,7 +25,11 @@ public class BOJ_경쟁적전염 {
 
         map = new int[N][N];
         visited = new boolean[N][N];
-        PriorityQueue<Virus> q = new PriorityQueue<>((v1, v2) -> v1.type - v2.type);
+
+        Queue<Virus> q = new LinkedList<>();
+
+        Comparator<Virus> comparator = (v1, v2) -> v1.type - v2.type;
+        ArrayList<Virus> list = new ArrayList<>();
 
         // 맵 초기화
         for (int i = 0; i< N; i++){
@@ -34,9 +37,14 @@ public class BOJ_경쟁적전염 {
             for (int j = 0; j<N; j++){
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if (map[i][j] != 0) {
-                    q.offer(new Virus(map[i][j], i, j, 0));
+                    list.add(new Virus(map[i][j], i, j, 0));
                 }
             }
+        }
+        Collections.sort(list, comparator);
+
+        for (Virus virus : list){
+            q.offer(virus);
         }
 
         st = new StringTokenizer(br.readLine());
@@ -53,12 +61,11 @@ public class BOJ_경쟁적전염 {
             bfs(virus, q);
         }
 
-
-        //bfs();
         System.out.println(map[X-1][Y-1]);
     }
 
-    public static void bfs(Virus virus, PriorityQueue<Virus> q){
+    public static void bfs(Virus virus, Queue<Virus> q){
+
         for (int i = 0; i < 4; i++) {
             int nx = virus.x + dx[i];
             int ny = virus.y + dy[i];
