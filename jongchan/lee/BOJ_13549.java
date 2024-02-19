@@ -12,8 +12,7 @@ public class BOJ_13549 {
     static final int MAX = 100_000;
     static int[] time = new int[MAX + 1];
     static int N, K;
-
-
+    
     public static void main(String[] args) throws IOException {
         //1. 각 입력값들의 파라미터 정리
         //2. 시간복잡도, 공간복잡도 계산
@@ -83,8 +82,9 @@ public class BOJ_13549 {
             this.time = time;
         }
 
-        public int compareTo(Node n) {
-            return this.time - n.time;
+        @Override
+        public int compareTo(Node node) {
+            return this.time - node.time;
         }
     }
 }
