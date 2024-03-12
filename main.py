@@ -21,6 +21,7 @@ if __name__ == "__main__":
     assignees = ["예진", "종찬", "주광", "윤선", "민협"]
     assignee_ids = ["fingersdanny", "Hju95", "yoonseon12", "yejincode", "oxix97", "GBGreenBravo"]
     reviewers = list(assignees) 
+    labels = ["documentation", "ためらう開発者のために"]
 
     random.shuffle(assignees)
     random.shuffle(reviewers)
@@ -41,6 +42,6 @@ if __name__ == "__main__":
     repo = g.get_organization("Kernel360-cell1").get_repo(repository_name)
 
     # 이슈 생성 및 assignee 추가
-    issue = repo.create_issue(title=title, body=markdown_content, assignees=assignee_ids)
+    issue = repo.create_issue(title=title, body=markdown_content, assignees=assignee_ids, labels=labels)
 
     print(f"이슈가 생성되었습니다. Assignees: {[assignee.login for assignee in issue.assignees]}")
