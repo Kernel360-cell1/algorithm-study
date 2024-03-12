@@ -1,13 +1,8 @@
 name: AUTO_ISSUE_GENERATOR
 
 on:
-  push:
-    branches:
-      - build.*
-    tags:
-      - build.*
   schedule:
-    - cron: '0 11 * * 1'
+    - cron: '0 3 * * 2'
 
 jobs:
   build:
