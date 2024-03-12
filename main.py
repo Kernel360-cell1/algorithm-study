@@ -19,7 +19,8 @@ if __name__ == "__main__":
     title = f"{now_year}년 {now_month}월 {week}주차 리뷰어 목록입니다."
 
     assignees = ["예진", "종찬", "주광", "윤선", "민협"]
-    reviewers = list(assignees)  # 모든 assignee가 reviewer가 될 수 있도록 복사
+    assignee_ids = ["fingersdanny", "Hju95", "yoonseon12", "yejincode", "oxix97", "GBGreenBravo"]
+    reviewers = list(assignees) 
 
     random.shuffle(assignees)
     random.shuffle(reviewers)
@@ -28,19 +29,18 @@ if __name__ == "__main__":
         random.shuffle(reviewers)
 
     # 테이블 헤더
-    table_header = "|Assignee|Reviewer|\n|---|---|"
+    table_header = "| Assignee | Reviewer | \n| --- | --- |"
 
     # 테이블 내용 생성
-    table_content = "\n".join(f"|{assignee}|{reviewer}|" for assignee, reviewer in zip(assignees, reviewers))
+    table_content = "\n".join(f"| {assignee} | {reviewer} |" for assignee, reviewer in zip(assignees, reviewers))
 
     # 전체 마크다운 생성
-    markdown_content = f"<details>\n<summary> 토글 열어서 보시죠 </summary>\n<div markdown=\"1\">\n\n{table_header}\n\n{table_content}\n\n</div>\n</details>"
-
+    markdown_content = f"<details>\n<summary> 토글 열어서 보시죠 </summary>\n<div markdown=\"1\">\n\n{table_header}\n{table_content}\n\n</div>\n</details>"
 
     g = Github(access_token)
     repo = g.get_organization("Kernel360-cell1").get_repo(repository_name)
 
-    # 이슈 생성
-    repo.create_issue(title = title, body = markdown_content)
+    # 이슈 생성 및 assignee 추가
+    issue = repo.create_issue(title=title, body=markdown_content, assignees=assignee_ids)
 
-    print("이슈가 생성 되었다. 날 그만 괴롭혀라...")
+    print(f"이슈가 생성되었습니다. Assignees: {[assignee.login for assignee in issue.assignees]}")
