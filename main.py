@@ -18,8 +18,8 @@ if __name__ == "__main__":
 
     title = f"{now_year}년 {now_month}월 {week}주차 리뷰어 목록입니다."
 
-    assignees = ["예진", "종찬", "주광", "윤선", "민협"]
-    assignee_ids = ["fingersdanny", "Hju95", "yoonseon12", "yejincode", "oxix97", "GBGreenBravo"]
+    assignees = ["예진", "병룡", "주광", "윤선", "민협"]
+    assignee_ids = ["fingersdanny", "Hju95", "yoonseon12", "yejincode", "GBGreenBravo"]
     reviewers = list(assignees) 
     labels = ["documentation", "ためらう開発者のために"]
 
