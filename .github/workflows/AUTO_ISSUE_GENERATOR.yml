@@ -2,7 +2,7 @@ name: AUTO_ISSUE_GENERATOR
 
 on:
   schedule:
-    - cron: '0 4 * * 2'
+    - cron: '0 0 * * 1'
 
 jobs:
   build:
