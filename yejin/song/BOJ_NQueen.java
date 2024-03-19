@@ -93,32 +93,5 @@ public class BOJ_NQueen {
             }
 
         }
-
-//        if (status) {
-//            for (int i = 0; i < N; i++) {
-//                if (i != x) map[x][i]++;
-//                if (i != y) map[i][y]++;
-//            }
-//            for (int i = 0; i < N; i++) {
-//                for (int j = 0; j < N; j++) {
-//                    if (i == x || j == y || i + j == x + y || i - j == x - y) {
-//                        if (i != x || j != y) map[i][j]++;
-//                    }
-//                }
-//            }
-//        } else {
-//            for (int i = 0; i < N; i++) {
-//                if (i != x) map[x][i]--;
-//                if (i != y) map[i][y]--;
-//            }
-//            for (int i = 0; i < N; i++) {
-//                for (int j = 0; j < N; j++) {
-//                    if (i == x || j == y || i + j == x + y || i - j == x - y) {
-//                        if (i != x || j != y) map[i][j]--;
-//                    }
-//                }
-//            }
-//        }
-
     }
 }
