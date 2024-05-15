@@ -1,27 +1,27 @@
-name: AUTO_ISSUE_GENERATOR
+# name: AUTO_ISSUE_GENERATOR
 
-on:
-  schedule:
-    - cron: '0 3 * * 1'
+# on:
+#   schedule:
+#     - cron: '0 3 * * 1'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v2
       
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.7
+#     - name: Set up Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
     
-    - name: Install requirements.txt
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+#     - name: Install requirements.txt
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
     
-    - name: Make Issue
-      run: |
-        python main.py
-      env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+#     - name: Make Issue
+#       run: |
+#         python main.py
+#       env:
+#         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
